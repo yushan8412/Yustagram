@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800AD21C288920ED008FDEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD21B288920ED008FDEF5 /* AppDelegate.swift */; };
+		800AD21E288920ED008FDEF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD21D288920ED008FDEF5 /* SceneDelegate.swift */; };
+		800AD220288920ED008FDEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD21F288920ED008FDEF5 /* ViewController.swift */; };
+		800AD223288920ED008FDEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD221288920ED008FDEF5 /* Main.storyboard */; };
+		800AD226288920ED008FDEF5 /* Yustagram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800AD224288920ED008FDEF5 /* Yustagram.xcdatamodeld */; };
+		800AD228288920EF008FDEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800AD227288920EF008FDEF5 /* Assets.xcassets */; };
+		800AD22B288920EF008FDEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800AD229288920EF008FDEF5 /* LaunchScreen.storyboard */; };
+		800AD23A2889229A008FDEF5 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD2392889229A008FDEF5 /* MainTabController.swift */; };
+		800AD23C28892A7D008FDEF5 /* LobbyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD23B28892A7D008FDEF5 /* LobbyController.swift */; };
+		800AD23E28892A8D008FDEF5 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD23D28892A8D008FDEF5 /* SearchController.swift */; };
+		800AD24028892A9E008FDEF5 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD23F28892A9E008FDEF5 /* ImageSelectorController.swift */; };
+		800AD24228892AB4008FDEF5 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD24128892AB4008FDEF5 /* NotificationController.swift */; };
+		800AD24428892AC2008FDEF5 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800AD24328892AC2008FDEF5 /* ProfileController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800AD218288920ED008FDEF5 /* Yustagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yustagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		800AD21B288920ED008FDEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800AD21D288920ED008FDEF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		800AD21F288920ED008FDEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		800AD222288920ED008FDEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800AD225288920ED008FDEF5 /* Yustagram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Yustagram.xcdatamodel; sourceTree = "<group>"; };
+		800AD227288920EF008FDEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800AD22A288920EF008FDEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800AD22C288920EF008FDEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800AD2392889229A008FDEF5 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		800AD23B28892A7D008FDEF5 /* LobbyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyController.swift; sourceTree = "<group>"; };
+		800AD23D28892A8D008FDEF5 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		800AD23F28892A9E008FDEF5 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		800AD24128892AB4008FDEF5 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		800AD24328892AC2008FDEF5 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800AD215288920ED008FDEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800AD20F288920ED008FDEF5 = {
+			isa = PBXGroup;
+			children = (
+				800AD21A288920ED008FDEF5 /* Yustagram */,
+				800AD219288920ED008FDEF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800AD219288920ED008FDEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800AD218288920ED008FDEF5 /* Yustagram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800AD21A288920ED008FDEF5 /* Yustagram */ = {
+			isa = PBXGroup;
+			children = (
+				800AD23728892140008FDEF5 /* Controller */,
+				800AD23628892139008FDEF5 /* API */,
+				800AD23528892137008FDEF5 /* ViewModel */,
+				800AD23328892131008FDEF5 /* View */,
+				800AD23228892122008FDEF5 /* Model */,
+				800AD23828892141008FDEF5 /* Utils */,
+				800AD21B288920ED008FDEF5 /* AppDelegate.swift */,
+				800AD21D288920ED008FDEF5 /* SceneDelegate.swift */,
+				800AD21F288920ED008FDEF5 /* ViewController.swift */,
+				800AD221288920ED008FDEF5 /* Main.storyboard */,
+				800AD227288920EF008FDEF5 /* Assets.xcassets */,
+				800AD229288920EF008FDEF5 /* LaunchScreen.storyboard */,
+				800AD22C288920EF008FDEF5 /* Info.plist */,
+				800AD224288920ED008FDEF5 /* Yustagram.xcdatamodeld */,
+			);
+			path = Yustagram;
+			sourceTree = "<group>";
+		};
+		800AD23228892122008FDEF5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		800AD23328892131008FDEF5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		800AD23528892137008FDEF5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		800AD23628892139008FDEF5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		800AD23728892140008FDEF5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				800AD2392889229A008FDEF5 /* MainTabController.swift */,
+				800AD23B28892A7D008FDEF5 /* LobbyController.swift */,
+				800AD23D28892A8D008FDEF5 /* SearchController.swift */,
+				800AD23F28892A9E008FDEF5 /* ImageSelectorController.swift */,
+				800AD24128892AB4008FDEF5 /* NotificationController.swift */,
+				800AD24328892AC2008FDEF5 /* ProfileController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		800AD23828892141008FDEF5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800AD217288920ED008FDEF5 /* Yustagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800AD22F288920EF008FDEF5 /* Build configuration list for PBXNativeTarget "Yustagram" */;
+			buildPhases = (
+				800AD214288920ED008FDEF5 /* Sources */,
+				800AD215288920ED008FDEF5 /* Frameworks */,
+				800AD216288920ED008FDEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Yustagram;
+			productName = Yustagram;
+			productReference = 800AD218288920ED008FDEF5 /* Yustagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800AD210288920ED008FDEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					800AD217288920ED008FDEF5 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 800AD213288920ED008FDEF5 /* Build configuration list for PBXProject "Yustagram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800AD20F288920ED008FDEF5;
+			productRefGroup = 800AD219288920ED008FDEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800AD217288920ED008FDEF5 /* Yustagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800AD216288920ED008FDEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800AD22B288920EF008FDEF5 /* LaunchScreen.storyboard in Resources */,
+				800AD228288920EF008FDEF5 /* Assets.xcassets in Resources */,
+				800AD223288920ED008FDEF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800AD214288920ED008FDEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800AD24028892A9E008FDEF5 /* ImageSelectorController.swift in Sources */,
+				800AD220288920ED008FDEF5 /* ViewController.swift in Sources */,
+				800AD21C288920ED008FDEF5 /* AppDelegate.swift in Sources */,
+				800AD23A2889229A008FDEF5 /* MainTabController.swift in Sources */,
+				800AD23E28892A8D008FDEF5 /* SearchController.swift in Sources */,
+				800AD24428892AC2008FDEF5 /* ProfileController.swift in Sources */,
+				800AD21E288920ED008FDEF5 /* SceneDelegate.swift in Sources */,
+				800AD24228892AB4008FDEF5 /* NotificationController.swift in Sources */,
+				800AD23C28892A7D008FDEF5 /* LobbyController.swift in Sources */,
+				800AD226288920ED008FDEF5 /* Yustagram.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		800AD221288920ED008FDEF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800AD222288920ED008FDEF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800AD229288920EF008FDEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800AD22A288920EF008FDEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800AD22D288920EF008FDEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800AD22E288920EF008FDEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800AD230288920EF008FDEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN648B7298;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yustagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.Yustagram.Yustagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800AD231288920EF008FDEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN648B7298;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Yustagram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yang.Yustagram.Yustagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800AD213288920ED008FDEF5 /* Build configuration list for PBXProject "Yustagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD22D288920EF008FDEF5 /* Debug */,
+				800AD22E288920EF008FDEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800AD22F288920EF008FDEF5 /* Build configuration list for PBXNativeTarget "Yustagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800AD230288920EF008FDEF5 /* Debug */,
+				800AD231288920EF008FDEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		800AD224288920ED008FDEF5 /* Yustagram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				800AD225288920ED008FDEF5 /* Yustagram.xcdatamodel */,
+			);
+			currentVersion = 800AD225288920ED008FDEF5 /* Yustagram.xcdatamodel */;
+			path = Yustagram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 800AD210288920ED008FDEF5 /* Project object */;
+}
